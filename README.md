@@ -1,6 +1,6 @@
 # Matlab-Cheatsheet
 
-This repository contains the LaTeX source used to create a cheatsheet of common Matlab commands. The cheatsheet can be found in the [MatlabCheatsheet.pdf](https://github.com/steventhornton/Matlab-Cheatsheet/blob/master/MatlabCheatsheet.pdf) file.
+This repository contains the LaTeX source used to create a cheatsheet of common Matlab commands. You can also find the source on Overleaf at https://www.overleaf.com/read/qkhfxgpsrdsq.
 
 ![Cheatsheet page 1](https://s3.amazonaws.com/stevenethornton.github/MatlabCheatsheet-1.png)
 
