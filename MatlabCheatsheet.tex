@@ -34,12 +34,12 @@
         % -------------------------------------------------------
         % Defining/Changing Variables
         % -------------------------------------------------------
-        \begin{fancytable}{Defining/Changing Variables}
-            \texttt{x = 3} & Define variable $x$ to be $3$\\
+        \begin{fancytable}{Defining and Changing Variables}
+            \texttt{a = 3} & Define variable $a$ to be $3$\\
             \texttt{x = [1, 2, 3]} & Set $x$ to be the row vector $[1, 2, 3]$\\
             \texttt{x = [1; 2; 3]} & Set $x$ to be the column vector $[1, 2, 3]^T$\\
             \texttt{A = [1, 2, 3, 4;} & Set $A$ to be a $3 \times 4$ matrix \\
-            \rowcolor{white}\qquad\,\,\,\texttt{5, 6, 7, 8;} & \\
+            \rowcolor{row1!75}\qquad\,\,\,\texttt{5, 6, 7, 8;} & \\
             \qquad\,\,\,\texttt{9, 10, 11, 12]} & \\
             \texttt{x(2) = 7} & Change $x$ from $[1, 2, 3]$ to $[1, 7, 3]$\\
             \texttt{A(2,1) = 0} & Change $A_{2,1}$ from $5$ to $0$ \\ \chline{Header}
@@ -62,7 +62,7 @@
         % -------------------------------------------------------
         % Constructing Matrices/Vectors
         % -------------------------------------------------------
-        \begin{fancytable}{Constructing Matrices/Vectors}
+        \begin{fancytable}{Constructing Matrices and Vectors}
             \texttt{zeros(12, 5)} & Make a $12 \times 5$ matrix of zeros\\
             \texttt{ones(12, 5)} & Make a $12 \times 5$ matrix of ones\\
             \texttt{eye(5)} & Make a $5 \times 5$ identity matrix\\
@@ -75,7 +75,7 @@
         % -------------------------------------------------------
         % Operations on Matrices/Vectors
         % -------------------------------------------------------
-        \begin{fancytable}{Operations on Matrices/Vectors}
+        \begin{fancytable}{Operations on Matrices and Vectors}
             \texttt{3 * x} & Multiply every element of $x$ by $3$\\
             \texttt{x + 2} & Add $2$ to every element of $x$\\
             \texttt{x + y} & Element-wise addition of two vectors $x$ and $y$\\
@@ -96,7 +96,7 @@
         % -------------------------------------------------------
         % Portions of Matrices/Vectors
         % -------------------------------------------------------
-        \begin{fancytable}{Portions on Matrices/Vectors}
+        \begin{fancytable}{Entries of Matrices and Vectors}
             \texttt{x(2:12)} & The \nth{2} to the \nth{12} elements of $x$\\
             \texttt{x(2:end)} & The \nth{2} to the last elements of $x$\\
             \texttt{x(1:3:end)} & Every third element of $x$ from the first to last\\
